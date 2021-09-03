@@ -1,6 +1,9 @@
+//Autor: Leandro Avalos Enunciado: ejr09 IF
 function mostrar()
 {
-	//Genero el número RANDOM entre 1 y 10 
-	alert("ok");	
+	var aleatorio;
+	aleatorio = Math.floor(Math.random() * 10) + 1;
+
+	alert("El numero random es "+aleatorio);
 
 }//FIN DE LA FUNCIÓN
